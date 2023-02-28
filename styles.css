@@ -1,0 +1,68 @@
+#uploadingMichi{
+    background-color: papayawhip;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#file{
+    color: black;
+    background-color: palegreen;
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+    border: solid salmon 6px;
+    border-radius: 10px;
+}
+
+button{
+    display: block;
+    margin: 25px;
+    color: white;
+    background-color: salmon;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#randomMichis{
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    background-color: paleturquoise;
+    padding: 25px;
+}
+
+.random-cat-button{
+    justify-content: block;
+    margin-bottom: 20px;
+    color: black;
+    background-color: palegreen;
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#favoritesMichis{
+    margin-top: 20px;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    background-color: palegoldenrod;
+    padding: 25px;
+}
+
+@media (max-width: 700px){
+    img{
+        width: 45%;
+        height: 45%;
+    }
+}

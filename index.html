@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Consumo de APIs - Gatitos aleatorios</title>
+</head>
+<body>
+    <section id="uploadingMichi">
+        <h2>Sube la foto de tu michi</h2>
+        <form id="uploadingForm">
+            <input id="file" type="file" name="file"/>
+            <button type="button" onclick="uploadMichiPhoto()">Subir foto de michi</button>
+        </form>
+    </section>
+
+    <span id="randomMichisError"></span>
+    
+    <section id="randomMichis">
+        <h1>Gatitos aleatorios</h1>
+        <button type="button" onclick="loadRandomMichis()" class="random-cat-button"> ¡Enséñame un gatito!</button>
+        <article>
+            <img id="imagen-gatito-1" alt="Foto de gatito aleatorio">
+            <button id="btn1">Guardar foto en favoritos</button>
+        </article>
+    
+        <article>
+            <img id="imagen-gatito-2" alt="Foto de gatito aleatorio 2">
+            <button id="btn2">Guardar foto en favoritos</button>
+        </article>
+    </section>
+
+    <section id="favoritesMichis">
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
